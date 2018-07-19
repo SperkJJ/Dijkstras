@@ -167,37 +167,3 @@ class Graph(object):
         name = self.node_names[node.value]
         for i in self.nodes:
             print(name, ' to ', self.node_names[i.value], ' ----> ', i.dist)
-graph = Graph()
-
-
-# graph.set_node_names(('U',  # 0
-#                       'D',  # 1
-#                       'A',  # 2
-#                       'C',  # 3
-#                       'I',  # 4
-#                       'T',  # 5
-#                       'Y')) # 6
-#
-# graph.insert_edge(4, 0, 1)  # U <-> D
-# graph.insert_edge(4, 1, 0)  # D <-> U
-# graph.insert_edge(3, 0, 2)  # U <-> A
-# graph.insert_edge(3, 2, 0)  # A <-> U
-# graph.insert_edge(7, 0, 3)  # U <-> C
-# graph.insert_edge(7, 3, 0)  # C <-> U
-# graph.insert_edge(3, 1, 3)  # D <-> C
-# graph.insert_edge(3, 3, 1)  # C <-> D
-# graph.insert_edge(6, 2, 4)  # A <-> I
-# graph.insert_edge(6, 4, 2)  # I <-> A
-# graph.insert_edge(4, 3, 4)  # C <-> I
-# graph.insert_edge(4, 4, 3)  # I <-> C
-# graph.insert_edge(2, 3, 5)  # C <-> T
-# graph.insert_edge(2, 5, 3)  # T <-> C
-# graph.insert_edge(4, 4, 6)  # I <-> Y
-# graph.insert_edge(4, 6, 4)  # Y <-> I
-# graph.insert_edge(5, 5, 6)  # T <-> Y
-# graph.insert_edge(5, 6, 5)  # Y <-> T
-#
-#
-#
-#
-# graph.distance_map(6)
