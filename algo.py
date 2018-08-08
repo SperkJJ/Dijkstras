@@ -170,6 +170,10 @@ class Graph(object):
 graph = Graph()
 
 
+
+#graph = Graph()
+
+
 # graph.set_node_names(('U',  # 0
 #                       'D',  # 1
 #                       'A',  # 2
